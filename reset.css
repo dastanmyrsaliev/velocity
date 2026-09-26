@@ -36,6 +36,10 @@ p + p {
   margin-top: 1em;
 }
 
+ul {
+  list-style: none;
+}
+
 img,
 svg,
 video {

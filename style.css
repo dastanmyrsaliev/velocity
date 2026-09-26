@@ -17,3 +17,42 @@ p {
   color: #6a859c;
   line-height: 1.8;
 }
+
+.header {
+  padding: 20px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #69b9ff;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li + li {
+  margin-left: 40px;
+}
+
+.header-nav a {
+  font-size: 16px;
+  color: #676770;
+  transition: color 0.2s;
+}
+
+.header-nav a:hover {
+  color: #0082f3;
+}
+
+.header-nav a:active {
+  color: #005fb7;
+}

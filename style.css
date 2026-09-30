@@ -255,3 +255,51 @@ p {
 .services .link {
   margin-top: 15px;
 }
+
+/* ! TAB */
+.tab-section {
+}
+
+.tabs {
+}
+
+.tabs__nav {
+  margin-bottom: 50px;
+}
+
+.tabs__nav button {
+  padding: 0 30px;
+
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+
+  background-color: #92a0ad;
+  border-radius: 4px;
+}
+
+.tabs__nav button.active {
+  background: #2e80b6;
+}
+
+.tabs__nav button + button {
+  margin-left: 16px;
+}
+
+.tabs__item img {
+  margin-bottom: 15px;
+}
+
+.tabs__item h4 {
+  margin-bottom: 15px;
+
+  font-size: 31px;
+  line-height: 36px;
+  color: #676770;
+}
+
+.tabs__desc {
+  max-width: 720px;
+  margin: 0 auto;
+}

@@ -18,6 +18,32 @@ p {
   line-height: 1.8;
 }
 
+.hide {
+  display: none !important;
+}
+
+.title__wrapper {
+  margin-bottom: 60px;
+}
+
+.title {
+  margin-bottom: 17px;
+
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #676770;
+}
+
+.subtitle {
+  font-size: 17px;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #8e8e9c;
+}
+
 /* ! HEADER */
 .header {
   padding: 20px 0;
@@ -146,4 +172,43 @@ p {
 .link:active {
   background-color: rgba(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ! ABOUT (WHAT WE DO) */
+.about {
+}
+
+.common-section {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.about .cards__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .card {
+  padding: 35px 15px 20px;
+  width: 300px;
+  border: 1px solid #dcebf7;
+  border-radius: 5px;
+}
+
+.about .card img {
+  margin-bottom: 20px;
+
+  width: 94px;
+  height: 94px;
+  object-fit: contain;
+}
+
+.about .card h4 {
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #676770;
 }

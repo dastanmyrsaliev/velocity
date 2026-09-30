@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-/* Общие стили */
+/* ! ОБЩИЕ СТИЛИ */
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -18,8 +18,17 @@ p {
   line-height: 1.8;
 }
 
+/* ! HEADER */
 .header {
   padding: 20px 0;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  background-color: #fff;
 }
 
 .header__container {
@@ -55,4 +64,86 @@ p {
 
 .header-nav a:active {
   color: #005fb7;
+}
+
+/* ! MAIN */
+.main {
+}
+
+/* ! WELCOME */
+.welcome {
+  min-height: 600px;
+  height: 100vh;
+  padding: 195px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  text-align: center;
+
+  background-color: #282936;
+  background-image: url("img/welcome-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome__heading {
+  margin-bottom: 100px;
+
+  font-size: 59px;
+  line-height: 1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.welcome__links > * + * {
+  margin-left: 20px;
+}
+
+.link-primary {
+  display: inline-block;
+  padding: 11px 30px;
+
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background-color: #69b9ff;
+  border-radius: 4px;
+
+  transition: background-color 0.1s;
+}
+
+.link-primary:hover {
+  background-color: #79c0ff;
+}
+
+.link-primary:active {
+  background-color: #4389c4;
+}
+
+.link {
+  display: inline-block;
+  padding: 10px 30px;
+
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  transition: border-color 0.1s background-color 0.1s;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.link:active {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.5);
 }

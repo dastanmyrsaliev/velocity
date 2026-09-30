@@ -44,6 +44,23 @@ p {
   color: #8e8e9c;
 }
 
+.common-section {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.common-section--dark {
+  background-color: #192024;
+}
+
+.common-section--dark * {
+  color: #fff;
+}
+
+.common-section--dark .subtitle {
+  color: #e8e8e8;
+}
+
 /* ! HEADER */
 .header {
   padding: 20px 0;
@@ -55,6 +72,7 @@ p {
   z-index: 100;
 
   background-color: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header__container {
@@ -178,11 +196,6 @@ p {
 .about {
 }
 
-.common-section {
-  text-align: center;
-  padding: 80px 0;
-}
-
 .about .cards__wrapper {
   display: flex;
   justify-content: space-between;
@@ -211,4 +224,34 @@ p {
   letter-spacing: 7px;
   text-transform: uppercase;
   color: #676770;
+}
+
+/* ! SERVICES */
+.services {
+}
+
+.services .cards__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services .card {
+  width: 45%;
+}
+
+.services .card img {
+  margin-bottom: 20px;
+}
+
+.services .card h4 {
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.services .link {
+  margin-top: 15px;
 }

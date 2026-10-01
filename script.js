@@ -30,3 +30,20 @@ tabsBtns.forEach((btn, index) =>
     showTab(index);
   }),
 );
+
+// ! ANCHORS
+const anchors = document.querySelectorAll(".header__nav a");
+
+anchors.forEach((anc) => {
+  anc.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const id = anc.getAttribute("href");
+    const elem = document.querySelector(id);
+
+    window.scroll({
+      top: elem.offsetTop - 80,
+      behavior: "smooth",
+    });
+  });
+});

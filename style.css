@@ -88,30 +88,26 @@ p {
   color: #69b9ff;
 }
 
-.header-nav ul {
+.header__nav ul {
   display: flex;
 }
 
-.header-nav li + li {
+.header__nav li + li {
   margin-left: 40px;
 }
 
-.header-nav a {
+.header__nav a {
   font-size: 16px;
   color: #676770;
   transition: color 0.2s;
 }
 
-.header-nav a:hover {
+.header__nav a:hover {
   color: #0082f3;
 }
 
-.header-nav a:active {
+.header__nav a:active {
   color: #005fb7;
-}
-
-/* ! MAIN */
-.main {
 }
 
 /* ! WELCOME */
@@ -193,9 +189,6 @@ p {
 }
 
 /* ! ABOUT (WHAT WE DO) */
-.about {
-}
-
 .about .cards__wrapper {
   display: flex;
   justify-content: center;
@@ -229,9 +222,6 @@ p {
 }
 
 /* ! SERVICES */
-.services {
-}
-
 .services .cards__wrapper {
   display: flex;
   justify-content: space-between;
@@ -259,12 +249,6 @@ p {
 }
 
 /* ! TAB */
-.tab-section {
-}
-
-.tabs {
-}
-
 .tabs__nav {
   margin-bottom: 50px;
 }
@@ -321,9 +305,6 @@ p {
 }
 
 /* ! FOOTER */
-.footer {
-}
-
 .footer__desc {
   padding: 35px 0;
 }
@@ -383,18 +364,6 @@ p {
 
 .footer__social img {
   margin-right: 10px;
-}
-
-.footer__desc {
-}
-
-.container {
-}
-
-.footer__about {
-}
-
-.footer__links {
 }
 
 .footer__social img {
